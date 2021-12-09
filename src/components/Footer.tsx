@@ -1,10 +1,6 @@
 import React, { ReactElement } from 'react'
 
-interface Props {
-    
-}
-
-function Footer({}: Props): ReactElement {
+function Footer(): ReactElement {
     return (
         <div className="footer">
             Footer

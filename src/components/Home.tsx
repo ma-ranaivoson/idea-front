@@ -1,14 +1,11 @@
 import React, { ReactElement } from 'react'
+import '../styles/home.css'
 
-interface Props {
-    
-}
-
-function Home({}: Props): ReactElement {
+function Home(): ReactElement {
     return (
-        <div>
+        <>
             Home
-        </div>
+        </>
     )
 }
 
